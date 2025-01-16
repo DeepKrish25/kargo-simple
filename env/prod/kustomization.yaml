@@ -4,9 +4,9 @@ kind: Kustomization
 resources:
 - ../../base
 
-namespace: guestbook-simple-prod
+namespace: guestbook-simple-dev
 
 images:
-- name: dc88/kargo-demo
-  newName: dc88/kargo-demo
-  newTag: guestbook-v0.0.1
+- name: ghcr.io/akuity/guestbook
+  newName: ghcr.io/akuity/guestbook
+  newTag: v0.0.1
