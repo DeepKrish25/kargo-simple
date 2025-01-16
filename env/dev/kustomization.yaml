@@ -7,6 +7,6 @@ resources:
 namespace: guestbook-simple-dev
 
 images:
-- name: ghcr.io/DeepKrish25/guestbook
-  newName: ghcr.io/DeepKrish25/guestbook
+- name: dc88/kargo-demo
+  newName: dc88/kargo-demo
   newTag: v0.0.1
