@@ -6,5 +6,5 @@ metadata:
 spec:
   subscriptions:
   - image:
-      repoURL: ghcr.io/DeepKrish25/guestbook
+      repoURL: dc88/kargo-demo
       imageSelectionStrategy: SemVer
