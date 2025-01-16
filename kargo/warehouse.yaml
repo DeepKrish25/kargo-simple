@@ -6,5 +6,5 @@ metadata:
 spec:
   subscriptions:
   - image:
-      repoURL: dc88/kargo-demo
+      repoURL: ghcr.io/akuity/guestbook
       imageSelectionStrategy: SemVer
