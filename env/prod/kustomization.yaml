@@ -9,4 +9,4 @@ namespace: guestbook-simple-prod
 images:
 - name: dc88/kargo-demo
   newName: dc88/kargo-demo
-  newTag: v0.0.1
+  newTag: guestbook-v0.0.1
