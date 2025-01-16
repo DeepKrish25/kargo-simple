@@ -30,7 +30,7 @@ spec:
         config:
           path: ./src/env/dev
           images:
-          - image: dc88/kargo-demo:guestbook-v0.0.1
+         - image: ghcr.io/akuity/guestbook
       # Commit the changes to the Git repository.
       - uses: git-commit
         as: commit
@@ -87,7 +87,7 @@ spec:
         config:
           path: ./src/env/staging
           images:
-          - image: dc88/kargo-demo:guestbook-v0.0.1
+         - image: ghcr.io/akuity/guestbook
       # Commit the changes to the Git repository.
       - uses: git-commit
         as: commit
@@ -144,7 +144,7 @@ spec:
         config:
           path: ./src/env/prod
           images:
-          - image: dc88/kargo-demo:guestbook-v0.0.1
+         - image: ghcr.io/akuity/guestbook
       # Commit the changes to the Git repository.
       - uses: git-commit
         as: commit
