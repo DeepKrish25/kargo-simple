@@ -14,7 +14,7 @@ spec:
         app: guestbook-simple
     spec:
       containers:
-      - image: dc88/kargo-demo:guestbook:latest
+      - image: ghcr.io/akuity/guestbook:latest
         name: guestbook-simple
         ports:
         - name: http
